@@ -1,0 +1,30 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Debajyoti",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.5.2",
+    "powershell": "^2.3.3"
+  },
+  "devDependencies": {
+    "browserify-fs": "^1.0.0",
+    "buffer": "^6.0.3",
+    "cypress-real-events": "^1.14.0",
+    "events": "^3.3.0",
+    "mocha": "^11.7.1",
+    "path": "^0.12.7",
+    "process": "^0.11.10",
+    "util": "^0.12.5",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1"
+  },
+  "overrides": {
+    "semver": "^7.5.3"
+  }
+}
