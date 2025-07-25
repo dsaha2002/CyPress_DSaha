@@ -19,8 +19,33 @@ cy.visit('https://www.bstackdemo.com/signin/')
 cy.get("#username").click();
 cy.xpath("//div[text()='demouser']").click();
 cy.get("#password").type('ddd{enter}');
+
 cy.xpath('//*[@id="login-btn"]').click()
 cy.get("#login-btn").click();
 cy.xpath('//*[@id="__next"]/div[2]/div').should('have.text','demouserdddLog InInvalid Password')
 cy.log('invalid password')
 })
+
+
+if(weekly_dropdown){
+    if(flat_dropdown)
+    {
+        //weekly base rate locator
+
+
+    }elseif(hourly_dropdown)
+    {
+        //hourly base rate locator
+    }
+}elseif(monthly_dropdown)
+{
+    if(flat_dropdown)
+    {
+        //monthly base rate locator
+
+    }elseif(hourly_dropdown)
+    {
+        //hourly base rate locator
+    }
+}
+
